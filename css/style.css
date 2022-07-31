@@ -1,21 +1,23 @@
-#container {
-    Display: flex;
-    Flex-direction: row;
-    align-self: flex-start;
-    justify-content: start;
-    border-color: blueviolet;
-    background-color: aquamarine;
-    height: min-content
+body {
+    background-color: pink;
 }
 
 div {
     border-color: blue;
     border-radius: 4px;
-    background-color: yellow;
-    width: 10px;
-    height: 10px;
+    background-color: darkred;
+    width: 4px;
+    height: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: wheat;
 }
 
-p {
-    color: brown;
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    height: auto;
+    width: auto;
 }

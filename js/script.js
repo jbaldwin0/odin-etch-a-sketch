@@ -1,4 +1,4 @@
-const container = document.querySelector('#container');
+const container = document.querySelector('.container');
 
 for (let i = 0; i < 256; i++) {
     const content = document.createElement('div');
