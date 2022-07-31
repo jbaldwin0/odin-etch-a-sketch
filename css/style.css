@@ -1,0 +1,21 @@
+#container {
+    Display: flex;
+    Flex-direction: row;
+    align-self: flex-start;
+    justify-content: start;
+    border-color: blueviolet;
+    background-color: aquamarine;
+    height: min-content
+}
+
+div {
+    border-color: blue;
+    border-radius: 4px;
+    background-color: yellow;
+    width: 10px;
+    height: 10px;
+}
+
+p {
+    color: brown;
+}
