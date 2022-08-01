@@ -9,13 +9,19 @@ for (let i = 0; i < 256; i++) {
 const blocks = Array.prototype.slice.apply(document.querySelectorAll('.content')
 );
 
-for (content of blocks) {
-    content.addEventListener('mouseenter', () => {
-        content.style.backgroundColor = "black";
-      });
-      content.addEventListener('mouseleave', () => {
-        content.style.backgroundColor = "#b0c2c2";
-      });
-}
+blocks.forEach(block => {
+    //add event listeners
+    block.addEventListener("mouseover", handleMouseOver = () => {
+        mouseOver(block);
+    });
+    block.addEventListener("mouseout", handleMouseOut = () => {
+        mouseOut(block);
+    });
+});
 
-
+const mouseOver = (block) => {
+    block.style.backgroundColor = "black";
+};
+const mouseOut = (block) => {
+    block.style.backgroundColor = "#b0c2c2";
+};
