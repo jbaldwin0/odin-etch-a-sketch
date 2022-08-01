@@ -14,9 +14,11 @@ blocks.forEach(block => {
     block.addEventListener("mouseover", handleMouseOver = () => {
         mouseOver(block);
     });
+    /*
     block.addEventListener("mouseout", handleMouseOut = () => {
         mouseOut(block);
     });
+    */
 });
 
 const mouseOver = (block) => {

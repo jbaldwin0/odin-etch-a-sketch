@@ -27,6 +27,15 @@ div {
     z-index: 1;
 }
 
+.resize {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: center;
+
+}
+
 .content {
     z-index: 99;
 }
