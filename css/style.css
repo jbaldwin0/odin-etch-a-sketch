@@ -1,12 +1,13 @@
 body {
-    background-color: pink;
+    background-color: #112D32;
 }
 
 div {
     padding: 0%;
-    background-color: darkred;
+    background-color: #b0c2c2;
     flex: 0 0 6.25%;
     margin: 0 auto;
+    height: 32px;
 
 }
 
@@ -18,9 +19,15 @@ div {
 
     border-style: solid;
     border-width: 8px;
-    border-color: wheat;
+    border-color: #6E6658;
     border-radius: 8px;
     padding: 0%;
     height: 512px;
     width: 512px;
+    z-index: 1;
 }
+
+.content {
+    z-index: 99;
+}
+
